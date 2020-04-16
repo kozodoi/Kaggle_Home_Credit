@@ -1,4 +1,5 @@
-.DS_store
-.Rhistory
+*.DS_store*
+*.Rhistory*
+*.ipynb_checkpoints*
 
 data/
