@@ -1,6 +1,6 @@
 # Kaggle Home Credit
 
-Files and codes with my solution to the [Kaggle Home Credit Default Risk competition](https://www.kaggle.com/c/home-credit-default-risk)
+Files and codes with my solution to the [Kaggle Home Credit Default Risk competition](https://www.kaggle.com/c/home-credit-default-risk).
 
 
 ## Project summary
@@ -13,14 +13,15 @@ The project works with data from multiple sources, including credit bureau infor
 ## Project structure
 
 The project has the follwoing structure:
-- `codes/`: jupyter notebooks with codes for different project stages
-- `data/`: input data
-- `submissions/`: model predictions
+- `codes/`: jupyter notebooks with codes for different project stages: data preparation, modeling and ensembling.
+- `data/`: input data. The folder is not uploaded to Github due to size constraints. The raw data can be downloaded [here](https://www.kaggle.com/c/home-credit-default-risk).
+- `solutions/`: presentation with solutions from other competitors.
+- `submissions/`: predictions produced by the trained models.
 
 There are three notebooks:
-- `code_1_data_prep.ipynb`: data preprocessing and feature engineering
-- `code_2_modeling.ipynb`: modeling credit risk with a Lightgbm model
-- `code_3_ensemble.ipynb`: ensembling predictions from different models
+- `code_1_data_prep.ipynb`: data preprocessing and feature engineering. Processes the raw data and exports the aggregated data set.
+- `code_2_modeling.ipynb`: modeling credit risk with a Lightgbm model. Takes the aggregated data as input and produces submissions.
+- `code_3_ensemble.ipynb`: ensembling predictions from different models. 
 
 More details are provided within the notebooks.
 
