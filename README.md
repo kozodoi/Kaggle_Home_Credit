@@ -1,4 +1,4 @@
-# Kaggle Home Credit
+# Kaggle Home Credit Default Risk
 
 Files and codes with my solution to the [Kaggle Home Credit Default Risk competition](https://www.kaggle.com/c/home-credit-default-risk).
 
