@@ -5,14 +5,14 @@ Files and codes with my solution to the [Kaggle Home Credit Default Risk competi
 
 ## Project summary
 
-Credit scoring refers to the use of statistical models that guide loan approval decisions. This project considers a credit scoring task, where a binary classification model is used to distinguish defaulters and nondefaulters. 
+In finance, credit scoring refers to the use of statistical models to guide loan approval decisions. This project develops a binary classification model to distinguish defaulters and nondefaulters usimg supervised machine learning.
 
-The project works with data from multiple sources, including credit bureau information, application data, performance on previous loans and credit card balance. I perform thorough feature engineering and aggregate data into a single high-dimenional data set. Next, I train Lightgbm models that predict the probability of default.
+The project works with data from multiple sources, including credit bureau information, application data, performance on previous loans and credit card balance. I perform thorough feature engineering and aggregate data into a single high-dimenional data set. Next, I train an ensemble of LightGBM models that predict the probability of default.
 
 
 ## Project structure
 
-The project has the follwoing structure:
+The project has the following structure:
 - `codes/`: jupyter notebooks with codes for different project stages: data preparation, modeling and ensembling.
 - `data/`: input data. The folder is not uploaded to Github due to size constraints. The raw data can be downloaded [here](https://www.kaggle.com/c/home-credit-default-risk).
 - `solutions/`: presentation with solutions from other competitors.
