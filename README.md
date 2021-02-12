@@ -5,23 +5,24 @@ Files and codes with my solution to the [Kaggle Home Credit Default Risk competi
 
 ## Project summary
 
-In finance, credit scoring refers to the use of statistical models to guide loan approval decisions. This project develops a binary classification model to distinguish defaulters and nondefaulters usimg supervised machine learning.
+In finance, credit scoring refers to the use of statistical models to guide loan approval decisions. This project develops a binary classification model to distinguish defaulters and non-defaulters using supervised machine learning.
 
-The project works with data from multiple sources, including credit bureau information, application data, performance on previous loans and credit card balance. I perform thorough feature engineering and aggregate data into a single high-dimenional data set. Next, I train an ensemble of LightGBM models that predict the probability of default.
+The project works with data from multiple sources, including credit bureau information, application data, performance on previous loans and credit card balance. I perform thorough feature engineering and aggregate data into a single high-dimensional data set. Next, I train an ensemble of LightGBM models that predict the probability of default.
 
 
 ## Project structure
 
 The project has the following structure:
-- `codes/`: jupyter notebooks with codes for different project stages: data preparation, modeling and ensembling.
+- `codes/`: notebooks with codes for three project stages: data preparation, modeling and ensembling.
 - `data/`: input data. The folder is not uploaded to Github due to size constraints. The raw data can be downloaded [here](https://www.kaggle.com/c/home-credit-default-risk).
-- `solutions/`: presentation with solutions from other competitors.
+- `output/`: output figures exported from notebooks.
+- `solutions/`: slides with solutions from other competitors.
 - `submissions/`: predictions produced by the trained models.
 
 There are three notebooks:
 - `code_1_data_prep.ipynb`: data preprocessing and feature engineering. Processes the raw data and exports the aggregated data set.
-- `code_2_modeling.ipynb`: modeling credit risk with a Lightgbm model. Takes the aggregated data as input and produces submissions.
-- `code_3_ensemble.ipynb`: ensembling predictions from different models. 
+- `code_2_modeling.ipynb`: modeling credit risk with a LightGBM model. Takes the aggregated data as input and produces submissions.
+- `code_3_ensemble.ipynb`: ensembling predictions from different models.
 
 More details are provided within the notebooks.
 
