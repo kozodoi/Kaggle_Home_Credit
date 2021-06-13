@@ -1,9 +1,9 @@
 # Kaggle Home Credit Default Risk
 
-Files and codes with my solution to the [Kaggle Home Credit Default Risk competition](https://www.kaggle.com/c/home-credit-default-risk).
+Top-4% solution to the [Home Credit Default Risk](https://www.kaggle.com/c/home-credit-default-risk) Kaggle competition on credit scoring.
 
 
-## Project summary
+## Summary
 
 In finance, credit scoring refers to the use of statistical models to guide loan approval decisions. This project develops a binary classification model to distinguish defaulters and non-defaulters using supervised machine learning.
 
@@ -27,7 +27,7 @@ There are three notebooks:
 More details are provided within the notebooks.
 
 
-## Requirments
+## Working with the repo
 
 To run the project codes, you can create a new virtual environment in `conda`:
 
