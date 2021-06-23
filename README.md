@@ -2,6 +2,8 @@
 
 Top-4% solution to the [Home Credit Default Risk](https://www.kaggle.com/c/home-credit-default-risk) Kaggle competition on credit scoring.
 
+![cover](https://i.postimg.cc/Y0x2LtQk/credit-cover.jpg)
+
 
 ## Summary
 
@@ -13,18 +15,18 @@ The project works with data from multiple sources, including credit bureau infor
 ## Project structure
 
 The project has the following structure:
-- `codes/`: notebooks with codes for three project stages: data preparation, modeling and ensembling.
-- `data/`: input data. The folder is not uploaded to Github due to size constraints. The raw data can be downloaded [here](https://www.kaggle.com/c/home-credit-default-risk).
-- `output/`: output figures exported from notebooks.
-- `solutions/`: slides with solutions from other competitors.
-- `submissions/`: predictions produced by the trained models.
+- `codes/`: Python notebooks with codes for data preparation, modeling and ensembling
+- `data/`: input data (not included due to size constraints and can be downloaded [here](https://www.kaggle.com/c/home-credit-default-risk))
+- `output/`: output figures exported from the notebooks
+- `solutions/`: slides with competition solutions from other competitors
+- `submissions/`: test set predictions produced by the trained models
 
 There are three notebooks:
-- `code_1_data_prep.ipynb`: data preprocessing and feature engineering. Processes the raw data and exports the aggregated data set.
-- `code_2_modeling.ipynb`: modeling credit risk with a LightGBM model. Takes the aggregated data as input and produces submissions.
-- `code_3_ensemble.ipynb`: ensembling predictions from different models.
+- `code_1_data_prep.ipynb`: processing of the raw data, feature enginering and export of the aggregated data set
+- `code_2_modeling.ipynb`: training LightGBM models to predict credit risk and export of the test set predictions
+- `code_3_ensemble.ipynb`: ensembling predictions from different LightGBM models trained in `code_2_modeling.ipynb`
 
-More details are provided within the notebooks.
+More details are provided within the notebooks documentation.
 
 
 ## Working with the repo
